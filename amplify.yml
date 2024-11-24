@@ -2,9 +2,9 @@ version: 1
 frontend:
   phases:
     build:
-      commands: [npm run build]
+      commands: []
   artifacts:
-    baseDirectory: /dist/
+    baseDirectory: /
     files:
       - "**/*"
   cache:
