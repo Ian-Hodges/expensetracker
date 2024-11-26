@@ -4,7 +4,7 @@ frontend:
     preBuild:
       commands:
         - npm install
-        - amplify pull --frontend "javascript" --yes
+        - amplify pull --frontend
     build:
       commands:
         - npm run build
